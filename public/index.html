@@ -24,20 +24,20 @@
   <script>
     function greet() {
       const name = document.getElementById('nameInput').value;
-      fetch(`http://localhost:5000/greet/${name}`)
+      fetch(`hhttps://day28.onrender.com/greet/${name}`)
         .then(res => res.text())
         .then(data => document.getElementById('greetOutput').innerText = data);
     }
 
     function search() {
       const keyword = document.getElementById('searchInput').value;
-      fetch(`http://localhost:5000/search?keyword=${keyword}`)
+      fetch(`https://day28.onrender.com/search?keyword=${keyword}`)
         .then(res => res.text())
         .then(data => document.getElementById('searchOutput').innerText = data);
     }
 
     function readFile() {
-      fetch('http://localhost:5000/read-file')
+      fetch('https://day28.onrender.com/read-file')
         .then(res => res.text())
         .then(data => document.getElementById('fileOutput').innerText = data);
     }
