@@ -24,7 +24,7 @@
   <script>
     function greet() {
       const name = document.getElementById('nameInput').value;
-      fetch(`hhttps://day28.onrender.com/greet/${name}`)
+      fetch(`https://day28.onrender.com/greet/${name}`)
         .then(res => res.text())
         .then(data => document.getElementById('greetOutput').innerText = data);
     }
