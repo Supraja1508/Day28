@@ -1,0 +1,23 @@
+Day 28 Task
+
+This project demonstrates the use of **Node.js core HTTP module**, **Express framework**, and **file system (FS)** to build a basic server with frontend integration. It also uses **dotenv** for environment configuration.
+
+- Creating a server using both **HTTP module** and **Express**
+- Handling **route parameters** and **query strings**
+- Reading files using the **`fs` module**
+- Using **environment variables** via `dotenv`
+- Integrating a frontend with backend
+- Enabling **CORS** for cross-origin access
+- Hosting the full app online using **Render**
+
+
+| Feature       | Description                                  | Example                              |
+|--------------|----------------------------------------------|--------------------------------------|
+| `GET /greet/:name`  | Route param greeting           | `/greet/Supraja` → Hello, Supraja!         |
+| `GET /search?keyword=` | Query string example        | `/search?keyword=js` → You searched for: js |
+| `GET /read-file`     | Reads from `message.txt` using `fs` | Returns text file content            |
+| `Static Frontend`    | UI served via `/public/index.html`   | Input + buttons + result display     |
+
+
+
+
